@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController1: UIViewController {
     var viewModel = CatViewModel()
-
-
+    var cats = [CatModel]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let cat1 = CatModel(cat: "Wang cai", color: "yellow", type: "tu gou")
+        let cat2 = CatModel(cat: "wang wang", color: "black and white", type: "ha si qi")
+        cats += [cat1, cat2]
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +24,8 @@ class ViewController1: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
 
     /*
@@ -42,9 +46,13 @@ extension ViewController1: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.homeTableViewCell, for: indexPath) else {
-            fatalError("Could not")
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.homeTableViewCell, for: indexPath)as? HomeTableViewCell else {
+            fatalError("Could not get an instance of TableViewCell")
         }
+        let cat = cats[indexPath.row]
+        cell.nameFieldLabel.text = cat.cat
+        cell.colorFieldLabel.text = cat.color
+        cell.typeFieldLabel.text = cat.type
         return cell
     }
     

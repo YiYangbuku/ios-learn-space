@@ -11,5 +11,5 @@ import Foundation
 struct CatModel{
     var cat: String
     var color: String
-    var kind: String
+    var type: String
 }

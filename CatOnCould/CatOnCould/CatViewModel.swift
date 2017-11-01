@@ -8,7 +8,7 @@
 
 import Foundation
 
-let cellModel = CatModel(cat: "abc", color: "asf", kind: "xiaobai")
+let cellModel = CatModel(cat: "abc", color: "asf", type: "xiaobai")
 
 let mockModels = [cellModel, cellModel]
 class CatViewModel {

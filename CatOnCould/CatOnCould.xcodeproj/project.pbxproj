@@ -23,7 +23,7 @@
 		A5F902E41FA0801A002DF72C /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F902E31FA0801A002DF72C /* CatModel.swift */; };
 		A5F902E61FA0808E002DF72C /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F902E51FA0808E002DF72C /* CatViewModel.swift */; };
 		A5F902E81FA08270002DF72C /* HomeCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F902E71FA08270002DF72C /* HomeCellViewModel.swift */; };
-		A5F902EA1FA083AB002DF72C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F902E91FA083AB002DF72C /* TableViewCell.swift */; };
+		A5F902EA1FA083AB002DF72C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F902E91FA083AB002DF72C /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		A5F902E31FA0801A002DF72C /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
 		A5F902E51FA0808E002DF72C /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
 		A5F902E71FA08270002DF72C /* HomeCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellViewModel.swift; sourceTree = "<group>"; };
-		A5F902E91FA083AB002DF72C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A5F902E91FA083AB002DF72C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		B48F0400773E3EB5A98EAE7B /* Pods_CatOnCouldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatOnCouldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D0235BA15AF19516ED1768 /* Pods-CatOnCouldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatOnCouldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatOnCouldTests/Pods-CatOnCouldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD04254D3EB134D5761A4E54 /* Pods-CatOnCould.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatOnCould.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatOnCould/Pods-CatOnCould.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 				A54F4D4E1F974F6900FB9CCE /* LoginViewModel.swift */,
 				A5088FF81F8E0B2A00219762 /* Main.storyboard */,
 				A5731C581FA088D500DE4210 /* R.generated.swift */,
-				A5F902E91FA083AB002DF72C /* TableViewCell.swift */,
+				A5F902E91FA083AB002DF72C /* HomeTableViewCell.swift */,
 				A5088FF61F8E0B2A00219762 /* ViewController.swift */,
 				A5F902E11FA07F3F002DF72C /* ViewController1.swift */,
 			);
@@ -388,7 +388,7 @@
 				A5F902E41FA0801A002DF72C /* CatModel.swift in Sources */,
 				A5F902E61FA0808E002DF72C /* CatViewModel.swift in Sources */,
 				A54F4D4F1F974F6900FB9CCE /* LoginViewModel.swift in Sources */,
-				A5F902EA1FA083AB002DF72C /* TableViewCell.swift in Sources */,
+				A5F902EA1FA083AB002DF72C /* HomeTableViewCell.swift in Sources */,
 				A5F902E21FA07F3F002DF72C /* ViewController1.swift in Sources */,
 				A5088FF71F8E0B2A00219762 /* ViewController.swift in Sources */,
 				A5088FF51F8E0B2A00219762 /* AppDelegate.swift in Sources */,
