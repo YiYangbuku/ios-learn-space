@@ -14,6 +14,15 @@
 		A5088FFA1F8E0B2A00219762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5088FF81F8E0B2A00219762 /* Main.storyboard */; };
 		A5088FFC1F8E0B2A00219762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5088FFB1F8E0B2A00219762 /* Assets.xcassets */; };
 		A5088FFF1F8E0B2A00219762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5088FFD1F8E0B2A00219762 /* LaunchScreen.storyboard */; };
+		A529BE6B1FA9BBD90008305C /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529BE6A1FA9BBD90008305C /* MainScreenViewModel.swift */; };
+		A529BE6F1FA9BC6D0008305C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529BE6E1FA9BC6D0008305C /* LoginViewController.swift */; };
+		A529BE711FA9BCB60008305C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529BE701FA9BCB60008305C /* MainScreenViewController.swift */; };
+		A529BE731FA9C3440008305C /* LoginCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529BE721FA9C3440008305C /* LoginCredential.swift */; };
+		A529BE751FA9C3790008305C /* LoginKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529BE741FA9C3790008305C /* LoginKey.swift */; };
+		A529BE771FA9C39E0008305C /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529BE761FA9C39E0008305C /* LoginError.swift */; };
+		A529BE7A1FA9C3E10008305C /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529BE791FA9C3E10008305C /* LoginService.swift */; };
+		A529BE7D1FA9C73A0008305C /* translater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529BE7C1FA9C73A0008305C /* translater.swift */; };
+		A529BE7F1FA9CBAB0008305C /* LoginKeyTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529BE7E1FA9CBAB0008305C /* LoginKeyTranslator.swift */; };
 		A54F4D3F1F9747A000FB9CCE /* CatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F4D3E1F9747A000FB9CCE /* CatViewController.swift */; };
 		A54F4D471F974B6700FB9CCE /* CatOnCouldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F4D461F974B6700FB9CCE /* CatOnCouldTests.swift */; };
 		A54F4D4F1F974F6900FB9CCE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F4D4E1F974F6900FB9CCE /* LoginViewModel.swift */; };
@@ -47,6 +56,15 @@
 		A5088FFB1F8E0B2A00219762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5088FFE1F8E0B2A00219762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A50890001F8E0B2A00219762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A529BE6A1FA9BBD90008305C /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		A529BE6E1FA9BC6D0008305C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A529BE701FA9BCB60008305C /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		A529BE721FA9C3440008305C /* LoginCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredential.swift; sourceTree = "<group>"; };
+		A529BE741FA9C3790008305C /* LoginKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginKey.swift; sourceTree = "<group>"; };
+		A529BE761FA9C39E0008305C /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
+		A529BE791FA9C3E10008305C /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		A529BE7C1FA9C73A0008305C /* translater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = translater.swift; sourceTree = "<group>"; };
+		A529BE7E1FA9CBAB0008305C /* LoginKeyTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginKeyTranslator.swift; sourceTree = "<group>"; };
 		A54F4D3E1F9747A000FB9CCE /* CatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewController.swift; sourceTree = "<group>"; };
 		A54F4D441F974B6700FB9CCE /* CatOnCouldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatOnCouldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54F4D461F974B6700FB9CCE /* CatOnCouldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatOnCouldTests.swift; sourceTree = "<group>"; };
@@ -116,6 +134,10 @@
 		A5088FF31F8E0B2A00219762 /* CatOnCould */ = {
 			isa = PBXGroup;
 			children = (
+				A529BE7B1FA9C7240008305C /* translate */,
+				A529BE781FA9C3D20008305C /* service */,
+				A529BE691FA9BBAD0008305C /* viewmodel */,
+				A529BE661FA9BAE90008305C /* controller */,
 				A5088FF41F8E0B2A00219762 /* AppDelegate.swift */,
 				A5088FFB1F8E0B2A00219762 /* Assets.xcassets */,
 				A5F902E31FA0801A002DF72C /* CatModel.swift */,
@@ -128,10 +150,47 @@
 				A5088FF81F8E0B2A00219762 /* Main.storyboard */,
 				A5731C581FA088D500DE4210 /* R.generated.swift */,
 				A5F902E91FA083AB002DF72C /* HomeTableViewCell.swift */,
-				A5088FF61F8E0B2A00219762 /* ViewController.swift */,
 				A5F902E11FA07F3F002DF72C /* ViewController1.swift */,
 			);
 			path = CatOnCould;
+			sourceTree = "<group>";
+		};
+		A529BE661FA9BAE90008305C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5088FF61F8E0B2A00219762 /* ViewController.swift */,
+				A529BE6E1FA9BC6D0008305C /* LoginViewController.swift */,
+				A529BE701FA9BCB60008305C /* MainScreenViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A529BE691FA9BBAD0008305C /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				A529BE6A1FA9BBD90008305C /* MainScreenViewModel.swift */,
+				A529BE721FA9C3440008305C /* LoginCredential.swift */,
+				A529BE741FA9C3790008305C /* LoginKey.swift */,
+				A529BE761FA9C39E0008305C /* LoginError.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		A529BE781FA9C3D20008305C /* service */ = {
+			isa = PBXGroup;
+			children = (
+				A529BE791FA9C3E10008305C /* LoginService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		A529BE7B1FA9C7240008305C /* translate */ = {
+			isa = PBXGroup;
+			children = (
+				A529BE7C1FA9C73A0008305C /* translater.swift */,
+				A529BE7E1FA9CBAB0008305C /* LoginKeyTranslator.swift */,
+			);
+			path = translate;
 			sourceTree = "<group>";
 		};
 		A54F4D451F974B6700FB9CCE /* CatOnCouldTests */ = {
@@ -385,15 +444,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A529BE7A1FA9C3E10008305C /* LoginService.swift in Sources */,
+				A529BE6F1FA9BC6D0008305C /* LoginViewController.swift in Sources */,
+				A529BE711FA9BCB60008305C /* MainScreenViewController.swift in Sources */,
 				A5F902E41FA0801A002DF72C /* CatModel.swift in Sources */,
 				A5F902E61FA0808E002DF72C /* CatViewModel.swift in Sources */,
 				A54F4D4F1F974F6900FB9CCE /* LoginViewModel.swift in Sources */,
 				A5F902EA1FA083AB002DF72C /* HomeTableViewCell.swift in Sources */,
+				A529BE7D1FA9C73A0008305C /* translater.swift in Sources */,
 				A5F902E21FA07F3F002DF72C /* ViewController1.swift in Sources */,
+				A529BE6B1FA9BBD90008305C /* MainScreenViewModel.swift in Sources */,
+				A529BE731FA9C3440008305C /* LoginCredential.swift in Sources */,
 				A5088FF71F8E0B2A00219762 /* ViewController.swift in Sources */,
+				A529BE7F1FA9CBAB0008305C /* LoginKeyTranslator.swift in Sources */,
+				A529BE751FA9C3790008305C /* LoginKey.swift in Sources */,
 				A5088FF51F8E0B2A00219762 /* AppDelegate.swift in Sources */,
 				A5731C591FA088D500DE4210 /* R.generated.swift in Sources */,
 				A54F4D3F1F9747A000FB9CCE /* CatViewController.swift in Sources */,
+				A529BE771FA9C39E0008305C /* LoginError.swift in Sources */,
 				A5F902E81FA08270002DF72C /* HomeCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
