@@ -8,10 +8,10 @@
 
 import Foundation
 
-class HomeCellViewModel {
-    var model: HomeCellViewModel
+class CatCellViewModel {
+    var model: CatCellViewModel
     
-    init(model: HomeCellViewModel) {
+    init(model: CatCellViewModel) {
         self.model = model
     }
     

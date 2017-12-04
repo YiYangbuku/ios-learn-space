@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeTableViewCell: UITableViewCell {
+class CatTableViewCell: UITableViewCell {
 
     @IBOutlet weak var colorFieldLabel: UILabel!
     @IBOutlet weak var nameFieldLabel: UILabel!
