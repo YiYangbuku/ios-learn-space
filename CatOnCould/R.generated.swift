@@ -31,6 +31,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
+<<<<<<< HEAD
   /// This `R.image` struct is generated, and contains static references to 2 images.
   struct image {
     /// Image `avatar1`.
@@ -43,6 +44,13 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.avatar1, compatibleWith: traitCollection)
     }
     
+=======
+  /// This `R.image` struct is generated, and contains static references to 1 images.
+  struct image {
+    /// Image `login head`.
+    static let loginHead = Rswift.ImageResource(bundle: R.hostingBundle, name: "login head")
+    
+>>>>>>> 02f6ba1f94f86239d13751c888cc31f874bc107b
     /// `UIImage(named: "login head", bundle: ..., traitCollection: ...)`
     static func loginHead(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.loginHead, compatibleWith: traitCollection)
@@ -58,12 +66,18 @@ struct R: Rswift.Validatable {
   
   /// This `R.reuseIdentifier` struct is generated, and contains static references to 1 reuse identifiers.
   struct reuseIdentifier {
+<<<<<<< HEAD
     /// Reuse identifier `CatTableViewCell`.
     static let catTableViewCell: Rswift.ReuseIdentifier<CatTableViewCell> = Rswift.ReuseIdentifier(identifier: "CatTableViewCell")
+=======
+    /// Reuse identifier `HomeTableViewCell`.
+    static let homeTableViewCell: Rswift.ReuseIdentifier<UIKit.UITableViewCell> = Rswift.ReuseIdentifier(identifier: "HomeTableViewCell")
+>>>>>>> 02f6ba1f94f86239d13751c888cc31f874bc107b
     
     fileprivate init() {}
   }
   
+<<<<<<< HEAD
   /// This `R.segue` struct is generated, and contains static references to 2 view controllers.
   struct segue {
     /// This struct is generated for `MainScreenViewController`, and contains static references to 1 segues.
@@ -91,6 +105,20 @@ struct R: Rswift.Validatable {
       /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
       static func loginSuccessSegue(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, ViewController, CatsTableViewController>? {
         return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.viewController.loginSuccessSegue, segue: segue)
+=======
+  /// This `R.segue` struct is generated, and contains static references to 1 view controllers.
+  struct segue {
+    /// This struct is generated for `ViewController`, and contains static references to 1 segues.
+    struct viewController {
+      /// Segue identifier `catId`.
+      static let catId: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, ViewController, UIKit.UITableViewController> = Rswift.StoryboardSegueIdentifier(identifier: "catId")
+      
+      /// Optionally returns a typed version of segue `catId`.
+      /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
+      /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
+      static func catId(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, ViewController, UIKit.UITableViewController>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.viewController.catId, segue: segue)
+>>>>>>> 02f6ba1f94f86239d13751c888cc31f874bc107b
       }
       
       fileprivate init() {}
@@ -161,7 +189,11 @@ struct _R: Rswift.Validatable {
     }
     
     struct main: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+<<<<<<< HEAD
       typealias InitialController = MainScreenViewController
+=======
+      typealias InitialController = UIKit.UITabBarController
+>>>>>>> 02f6ba1f94f86239d13751c888cc31f874bc107b
       
       let bundle = R.hostingBundle
       let name = "Main"
